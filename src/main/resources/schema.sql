@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS controle_financeiro;
+
+CREATE TABLE IF NOT EXISTS investimento (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    tipo VARCHAR(255) NOT NULL,
+    quantidade INT NOT NULL,
+    valor DOUBLE NOT NULL,
+    taxa DOUBLE NOT NULL
+);

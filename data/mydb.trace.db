@@ -1,0 +1,99 @@
+2025-04-20 04:25:13.033422-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT @[*]@character_set_database, @@sql_mode"; expected "identifier"; SQL statement:
+SELECT @@character_set_database, @@sql_mode [42001-232]
+2025-04-20 04:25:13.761341-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table investimento (\000d\000a        id bigint not null auto_increment,\000d\000a        taxa float(53) not null,\000d\000a        nome varchar(255) not null,\000d\000a        quantidade integer not null,\000d\000a        tipo enum ('ACAO','CRYPTO','FIIS') not null,\000d\000a        valor float(53) not null,\000d\000a        primary key (id)\000d\000a    ) engine[*]=InnoDB"; expected "identifier"; SQL statement:
+
+    create table investimento (
+        id bigint not null auto_increment,
+        taxa float(53) not null,
+        nome varchar(255) not null,
+        quantidade integer not null,
+        tipo enum ('ACAO','CRYPTO','FIIS') not null,
+        valor float(53) not null,
+        primary key (id)
+    ) engine=InnoDB [42001-232]
+2025-04-20 04:35:04.750581-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INVESTIMENTO" not found (this database is empty); SQL statement:
+insert into investimento (taxa,nome,quantidade,tipo,valor) values (?,?,?,?,?) [42104-232]
+2025-04-20 04:36:42.952585-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT @[*]@character_set_database, @@sql_mode"; expected "identifier"; SQL statement:
+SELECT @@character_set_database, @@sql_mode [42001-232]
+2025-04-20 04:36:43.655804-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table investimento (\000d\000a        id bigint not null auto_increment,\000d\000a        taxa float(53) not null,\000d\000a        nome varchar(255) not null,\000d\000a        quantidade integer not null,\000d\000a        tipo enum ('ACAO','CRYPTO','FIIS') not null,\000d\000a        valor float(53) not null,\000d\000a        primary key (id)\000d\000a    ) engine[*]=InnoDB"; expected "identifier"; SQL statement:
+
+    create table investimento (
+        id bigint not null auto_increment,
+        taxa float(53) not null,
+        nome varchar(255) not null,
+        quantidade integer not null,
+        tipo enum ('ACAO','CRYPTO','FIIS') not null,
+        valor float(53) not null,
+        primary key (id)
+    ) engine=InnoDB [42001-232]
+2025-04-20 04:38:38.174633-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT @[*]@character_set_database, @@sql_mode"; expected "identifier"; SQL statement:
+SELECT @@character_set_database, @@sql_mode [42001-232]
+2025-04-20 04:38:38.837882-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table investimento (\000d\000a        id bigint not null auto_increment,\000d\000a        taxa float(53) not null,\000d\000a        nome varchar(255) not null,\000d\000a        quantidade integer not null,\000d\000a        tipo enum ('ACAO','CRYPTO','FIIS') not null,\000d\000a        valor float(53) not null,\000d\000a        primary key (id)\000d\000a    ) engine[*]=InnoDB"; expected "identifier"; SQL statement:
+
+    create table investimento (
+        id bigint not null auto_increment,
+        taxa float(53) not null,
+        nome varchar(255) not null,
+        quantidade integer not null,
+        tipo enum ('ACAO','CRYPTO','FIIS') not null,
+        valor float(53) not null,
+        primary key (id)
+    ) engine=InnoDB [42001-232]
+2025-04-20 04:42:21.811437-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT @[*]@character_set_database, @@sql_mode"; expected "identifier"; SQL statement:
+SELECT @@character_set_database, @@sql_mode [42001-232]
+2025-04-20 04:42:22.550008-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table investimento (\000d\000a        id bigint not null auto_increment,\000d\000a        taxa float(53) not null,\000d\000a        nome varchar(255) not null,\000d\000a        quantidade integer not null,\000d\000a        tipo enum ('ACAO','CRYPTO','FIIS') not null,\000d\000a        valor float(53) not null,\000d\000a        primary key (id)\000d\000a    ) engine[*]=InnoDB"; expected "identifier"; SQL statement:
+
+    create table investimento (
+        id bigint not null auto_increment,
+        taxa float(53) not null,
+        nome varchar(255) not null,
+        quantidade integer not null,
+        tipo enum ('ACAO','CRYPTO','FIIS') not null,
+        valor float(53) not null,
+        primary key (id)
+    ) engine=InnoDB [42001-232]
+2025-04-20 04:43:08.826553-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INVESTIMENTO" not found (this database is empty); SQL statement:
+insert into investimento (taxa,nome,quantidade,tipo,valor) values (?,?,?,?,?) [42104-232]
+2025-04-20 04:44:34.035335-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT @[*]@character_set_database, @@sql_mode"; expected "identifier"; SQL statement:
+SELECT @@character_set_database, @@sql_mode [42001-232]
+2025-04-20 04:44:34.686512-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table investimento (\000d\000a        id bigint not null auto_increment,\000d\000a        taxa float(53) not null,\000d\000a        nome varchar(255) not null,\000d\000a        quantidade integer not null,\000d\000a        tipo enum ('ACAO','CRYPTO','FIIS') not null,\000d\000a        valor float(53) not null,\000d\000a        primary key (id)\000d\000a    ) engine[*]=InnoDB"; expected "identifier"; SQL statement:
+
+    create table investimento (
+        id bigint not null auto_increment,
+        taxa float(53) not null,
+        nome varchar(255) not null,
+        quantidade integer not null,
+        tipo enum ('ACAO','CRYPTO','FIIS') not null,
+        valor float(53) not null,
+        primary key (id)
+    ) engine=InnoDB [42001-232]
+2025-04-20 04:48:01.154457-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "INVESTIMENTO" not found (this database is empty); SQL statement:
+insert into investimento (taxa,nome,quantidade,tipo,valor) values (?,?,?,?,?) [42104-232]
+2025-04-20 04:48:50.453917-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT @[*]@character_set_database, @@sql_mode"; expected "identifier"; SQL statement:
+SELECT @@character_set_database, @@sql_mode [42001-232]
+2025-04-20 04:48:51.072078-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table investimento (\000d\000a        id bigint not null auto_increment,\000d\000a        taxa float(53) not null,\000d\000a        nome varchar(255) not null,\000d\000a        quantidade integer not null,\000d\000a        tipo enum ('ACAO','CRYPTO','FIIS') not null,\000d\000a        valor float(53) not null,\000d\000a        primary key (id)\000d\000a    ) engine[*]=InnoDB"; expected "identifier"; SQL statement:
+
+    create table investimento (
+        id bigint not null auto_increment,
+        taxa float(53) not null,
+        nome varchar(255) not null,
+        quantidade integer not null,
+        tipo enum ('ACAO','CRYPTO','FIIS') not null,
+        valor float(53) not null,
+        primary key (id)
+    ) engine=InnoDB [42001-232]
